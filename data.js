@@ -1,0 +1,3 @@
+export const countries = [
+  "Afeganistão", "Alemanha", "Angola", "Argentina", "Arábia Saudita", "Argélia", "Austrália", "Bangladesh", "Brasil", "Camarões", "Canadá", "China", "Colômbia", "Coreia do Sul", "Congo", "Egito", "Espanha", "Estados Unidos", "Etiópia", "Filipinas", "França", "Gana", "Iraque", "Irã", "Indonésia", "Índia", "Itália", "Iêmen", "Japão", "Kenya", "Madagascar", "Malásia", "Marrocos", "Mianmar", "México", "Moçambique", "Nepal", "Nigéria", "Paquistão", "Peru", "Polônia", "Quênia", "Reino Unido", "República Democrática do Congo", "Rússia", "Sudão", "Tailândia", "Tanzânia", "Turquia", "Ucrânia", "Uganda", "Uzbequistão", "Venezuela", "Vietnã"
+];

@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.select {
+  margin-top: 20px;
+  position: relative;
+}
+
+.btn-select {
+  border: 1px solid gray;
+  padding: 5px 8px;
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+}
+
+.btn-select span {
+  width: 100%;
+}
+
+.select-content {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  width: 200px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+.select-content input {
+  padding: 3px;
+  width: 100%;
+  margin-bottom: 5px;
+  outline: 0;
+  font-size: 14px;
+}
+
+.select-content .options {
+  max-height: 250px;
+  list-style: none;
+  overflow: auto;
+  height: 100%;
+  font-size: 14px;
+}
+
+.options li {
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.options li:hover {
+  background-color: lightgray;
+}
+
+.select .active {
+  display: block;
+}
